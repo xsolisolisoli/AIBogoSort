@@ -10,7 +10,7 @@ Then pass your list of integers into AIBogo.AISortInts(List<Int>);
 
 And receive a sorted list of integers maybe never!
 
-###Under The Hood
+### Under The Hood
 AI Bogo takes the guesswork of sorting a list of integers and passes it onto ChatGPT.
 We feed it a friendly greeting, followed by an instruction to sort the list of integers at random, then we give it the list in plain text!
 We receive its response in convenient plain text, and convert it to a list of integers.
