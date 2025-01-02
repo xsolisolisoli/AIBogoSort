@@ -1,4 +1,4 @@
-#H1 AI-Powered BogoSort
+# AI-Powered BogoSort
 ## They're calling it "The Most Efficient Sorting Algorithm Ever"
 
 Simply import the class library into your project with
