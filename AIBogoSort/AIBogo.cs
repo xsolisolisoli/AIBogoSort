@@ -8,6 +8,16 @@ namespace AIBogoSort
     {
         private ChatGpt bot;
         public AIBogo(string API_KEY) { bot = new ChatGpt(API_KEY); }
+        public async Task<IEnumerable<int>> AISortInts(IEnumerable<int> input)
+        {
+            var x = await AISortInts(input.ToList());
+            return x.AsEnumerable();
+        }
+        public async Task<int[]> AISortInts(int[] input)
+        {
+            var x = await AISortInts(input.ToList());
+            return x.ToArray();
+        }
         public async Task<List<int>> AISortInts(List<int> input)
         {
             var sortedList = new List<int>();
